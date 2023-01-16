@@ -1,0 +1,23 @@
+{
+  "name": "reimagined-octo-garbanzo",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^12.3.0"
+  },
+  "scripts": {
+    "test": "cypress run",
+    "open": "cypress open --e2e -b electron"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpita/reimagined-octo-garbanzo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpita/reimagined-octo-garbanzo/issues"
+  },
+  "homepage": "https://github.com/jpita/reimagined-octo-garbanzo#readme"
+}
