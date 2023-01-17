@@ -16,3 +16,9 @@ jobs:
         uses: actions/setup-node@v3
       - run: npm i
       - run: npm test
+      - uses: actions/upload-artifact@v3
+        with:
+          name: cypress-artifact
+          path: |
+            cypress/screenshots
+            cypress/videos
