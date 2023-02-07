@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
-    "cypress": "^12.3.0"
+    "cypress": "^12.4.0",
+    "@cypress/webpack-preprocessor": "^5.16.1"
   },
   "scripts": {
     "test": "cypress run",
